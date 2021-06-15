@@ -1,0 +1,73 @@
+/* ------------------ Product Item --------------------- */
+
+@import url('../foloder//productItem/productItem.css');
+
+
+.products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin:  0 20px;
+}
+.delete_all{
+    text-align: right;
+    margin: 20px
+}
+.delete_all input {
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+}
+.delete_all span {
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+}
+.delete_all button{
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+/* ------------------ Filters menu --------------------- */
+
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 10px;
+}
+.filter_menu select, input{
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+}
+.filter_menu input{
+    /* flex: 1; */
+    width: 200px;
+    margin: 0 10px;
+}
+.row span{
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* ------------------ Load more --------------------- */
+
+.load_more{
+    text-align: center;
+}
+.load_more button{
+    padding: 10px 25px;
+    margin-bottom: 1px solid #555;
+    border: 1px solid #555;
+    text-transform: capitalize;
+}
+

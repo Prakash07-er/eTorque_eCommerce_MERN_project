@@ -1,0 +1,81 @@
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url("./images/evcar.jpg") top left;
+    background-size: cover;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .container {
+    position: relative;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  #hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #222222;
+    justify-content: center;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 20px;
+  }
+  #hero .btn{
+    color: green;
+  }
+  #hero h1 span {
+    color: rgb(7, 148, 14);
+    font-size: 3rem;
+  }
+  
+  #hero h2 {
+    color: #555555;
+    margin-top: 30px ;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+    margin-top: 30px ;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: rgb(111, 158, 221);
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.2s ease-in-out;
+  }

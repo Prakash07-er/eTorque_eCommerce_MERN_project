@@ -1,0 +1,17 @@
+#featured-services{
+    margin-top: 40px;
+}
+
+.feature_card{
+    display: block;
+  position: relative;
+  max-width: 100%;
+  background-color: #f2f8f9;
+  color: rgba(8, 141, 48, 0.8);
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+}
