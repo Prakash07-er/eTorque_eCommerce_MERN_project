@@ -10,7 +10,7 @@ export default function Featuredservice() {
                 <div class="row">
                 <div class="card-deck">
                     <div class="card feature_card" data-aos="fade-right"  data-aos-delay="100">
-                        <img src="http://efuel.like-themes.com/wp-content/uploads/2018/08/serv_01-690x410.jpg" class="card-img-top" alt="..." />
+                        <img src="https://i.pinimg.com/originals/e7/cd/25/e7cd2567986be2e6d40d0a042a76cac5.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                         <h5 class="card-title"> Home-Charging</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -18,7 +18,7 @@ export default function Featuredservice() {
                         </div>
                     </div>
                     <div class="card feature_card" data-aos="fade-in"  data-aos-delay="100">
-                        <img src="http://efuel.like-themes.com/wp-content/uploads/2018/08/serv_02-690x410.jpg" class="card-img-top" alt="..." />
+                        <img src="https://d346xxcyottdqx.cloudfront.net/wp-content/uploads/2017/07/Electric-vehicle-charging-at-charging-station.-The-station-also-supply-petrol-and-diesel.-3D-rendering-image.-Copyright-cheskyw-123rf.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                         <h5 class="card-title"> Public Station</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -26,7 +26,7 @@ export default function Featuredservice() {
                         </div>
                     </div>
                     <div class="card feature_card" data-aos="fade-left"  data-aos-delay="100">
-                        <img src="http://efuel.like-themes.com/wp-content/uploads/2018/08/serv_03-690x410.jpg" class="card-img-top" alt="..." />
+                        <img src="https://techstartups.com/wp-content/uploads/2020/09/ChargePoint-960x605.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                         <h5 class="card-title">Commercial</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
