@@ -1,6 +1,5 @@
 import React, {useContext, useState} from 'react'
 import {GlobalState } from '../../GlobalState'
-import Topbar from '../HomePage/topbar'
 import Menu from "./icon/menu.svg"
 import Close from "./icon/close.svg"
 import Cart from "./icon/cart.svg"
@@ -48,7 +47,7 @@ function Header() {
 
     return (
         <>
-        <Topbar />
+ 
       <header id="header_menu">
           <div className="menu" onClick={() => setMenu(!menu)} >
             <img src={Menu} alt="" width="30" />

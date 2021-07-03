@@ -1,10 +1,11 @@
 #hero {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background: url("./images/evcar.jpg") top left;
     background-size: cover;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
   }
   
   #hero:before {

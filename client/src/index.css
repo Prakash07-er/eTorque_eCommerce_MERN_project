@@ -22,9 +22,6 @@ button{
 
 @import url('./components/headers/header.css');
 
-/* ----------------------  Topbar -------------------------- */
-
-@import url('./components/HomePage/topbar.css');
 
 /* ----------------------  Hero -------------------------- */
 
@@ -207,5 +204,11 @@ button{
   }
   .breadcrumbs ol li {
     display: inline-block;
+  }
+}
+@media (max-width: 768px) {
+  #hero{
+    height: 100%;
+    width: 100%;
   }
 }

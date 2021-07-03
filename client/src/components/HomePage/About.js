@@ -13,7 +13,7 @@ export default function About() {
         </div>
 
         <div class="row">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+          <div class="col-lg-6 about_image" data-aos="fade-right" data-aos-delay="100">
                 <img src="https://res.cloudinary.com/dj0pjewbs/image/upload/v1623668877/advantage_rx2tyy.png" alt=" " / >
             <div>
               <div>
